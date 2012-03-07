@@ -1,0 +1,15 @@
+{
+  "author": "Eber Herrera <eberhm@gmail.com>",
+  "name": "supclient",
+  "description": "Simple SUP Client for node",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~v0.5.4-pre"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "index"
+}
