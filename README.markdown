@@ -29,7 +29,8 @@ parser.on('error', function(error){
     client.stop();
 });
 
-client.start(); ```
+client.start();
+```
 
 ## What is SUP?
 
