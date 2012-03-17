@@ -46,11 +46,14 @@ SUPClient hiding and protecting SUPClient's prototype.
 createClient(<object> config) : This method just creates an instance of
 SUPClient passing along the config object passed as parameter. The config
 object has the following structure:
+
 ```javascript
+
     {
         url : 'http://supserver.com/path/to/supFile',
         age : 30 //check new updates every 30 secs
     }
+    
 ```
 
 discover(<string >url, <function> callback): This method makes a request to
