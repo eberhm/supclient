@@ -1,11 +1,11 @@
 #  SupClient - Simple SUP client in Node.js
 
-This module provides a simple client to start consuming SUP feeds. It uses
-node-feedparser parser.
+This module provides a simple client to start consuming SUP feeds.
 
 ## Requirements
 
-- [feedparser](https://github.com/danmactough/node-feedparser)
+- [superagent](https://github.com/visionmedia/superagent)
+- [libxmljs](https://github.com/polotek/libxmljs)
 
 ## Installation
 
@@ -53,7 +53,7 @@ object has the following structure:
         url : 'http://supserver.com/path/to/supFile',
         age : 30 //check new updates every 30 secs
     }
-    
+
 ```
 
 discover(<string >url, <function> callback): This method makes a request to
